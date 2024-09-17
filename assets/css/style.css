@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-start; /* Alinear hacia la parte superior */
+    min-height: 100vh; /* Hacer que el cuerpo tenga al menos el 100% de la altura del viewport */
+    background-color: #f0f0f0; /* Color de fondo de la página */
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px; /* Espacio desde la parte superior */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Ajusta el ancho máximo de la tarjeta */
+    width: 100%; /* Hace que la tarjeta ocupe el 100% del espacio disponible, hasta el max-width */
+    box-sizing: border-box;
+}
